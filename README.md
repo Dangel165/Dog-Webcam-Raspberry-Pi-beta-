@@ -51,3 +51,14 @@ My dog suffers from severe separation anxiety, which led me to build a dedicated
 | **Server** | Python, Flask, aiortc, PyAV |
 | **Client** | Flutter, flutter_webrtc, HTTP |
 | **Hardware** | Raspberry Pi 4B(8GB), Raspberry Pi Camera Module 3 NoIR , USB Mic/Speaker |
+
+
+---
+
+## ⚠️ 알려진 버그 (Known Issues)
+
+### 🇰🇷 한국어
+* **카메라 인식 오류**: 간혹 앱 실행 시 카메라 스트리밍이 즉시 시작되지 않는 버그가 있습니다 그래서 현재 WebRTC 문제를 해결 중입니다.
+
+### 🇺🇸 English
+* **Camera Recognition Issue**: There is an intermittent bug where the camera stream fails to start immediately when the app is launched. I am currently working on resolving this WebRTC-related issue to improve connection stability.
